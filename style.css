@@ -1,0 +1,84 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #FFDEE9, #B5FFFC);
+    color: #333;
+  }
+  
+  #story-container {
+    text-align: center;
+    background: linear-gradient(135deg, #FF9A8B, #FF6A88, #FF99AC);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  #story-text {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .choice-btn {
+    background-color: #6A82FB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  .choice-btn:hover {
+    background-color: #FC5C7D;
+    transform: scale(1.05);
+  }
+  
+  #time-tracking-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #A8E6FF, #FFE29F);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  #time-tracking-container h2 {
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    color: #333;
+  }
+  
+  #time-tracking-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #time-tracking-list li {
+    font-size: 1rem;
+    margin: 8px 0;
+    background-color: #FFF5F7;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #FFD3E2;
+    color: #333;
+  }
+  

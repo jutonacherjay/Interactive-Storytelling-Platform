@@ -1,0 +1,27 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Story</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+<body>
+  <div id="story-container">
+    <p id="story-text"></p>
+    <button class="choice-btn" id="choiceA" onclick="makeChoice('A')">Option A</button>
+    <button class="choice-btn" id="choiceB" onclick="makeChoice('B')">Option B</button>
+  </div>
+
+  <!-- Display time spent in each section -->
+  <div id="time-tracking-container">
+    <h2>Time Spent on Sections</h2>
+    <ul id="time-tracking-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
